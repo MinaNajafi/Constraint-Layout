@@ -3,10 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="0dp">
+    android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -27,11 +24,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="@+id/guideline6"
-        tools:text="Button"
-        android:layout_marginLeft="8dp" />
+        tools:text="Button" />
 
     <TextView
         android:id="@+id/textView2"
@@ -41,8 +36,6 @@
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toEndOf="@+id/button6"
         app:layout_constraintTop_toTopOf="@+id/guideline6"
-        tools:text="TextView"
-        android:layout_marginLeft="8dp" />
-
+        tools:text="TextView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,7 +15,7 @@
         android:id="@+id/iv_sun"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintHeight_percent=".1"
-        android:src="@drawable/ic_sun"
+        app:srcCompat="@drawable/ic_sun"
         />
 
 
@@ -32,7 +32,7 @@
         android:id="@+id/iv_mercury"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintHeight_percent=".1"
-        android:src="@drawable/ic_mercury"
+        app:srcCompat="@drawable/ic_mercury"
         />
 
 
@@ -49,7 +49,7 @@
         android:id="@+id/iv_jupiter"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintHeight_percent=".1"
-        android:src="@drawable/ic_jupiter"
+        app:srcCompat="@drawable/ic_jupiter"
         />
 
     <ImageView
@@ -65,7 +65,7 @@
         android:id="@+id/iv_earth"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintHeight_percent=".1"
-        android:src="@drawable/ic_earth"
+        app:srcCompat="@drawable/ic_earth"
         />
 
 
@@ -82,7 +82,7 @@
         android:id="@+id/iv_mars"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintHeight_percent=".1"
-        android:src="@drawable/ic_mars"
+        app:srcCompat="@drawable/ic_mars"
         />
 
 

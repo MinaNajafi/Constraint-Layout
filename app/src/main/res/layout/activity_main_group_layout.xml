@@ -21,7 +21,10 @@
         android:text="B"
         app:layout_constraintBaseline_toBaselineOf="@id/tv_A"
         app:layout_constraintStart_toEndOf="@id/tv_A"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
 
 
     <TextView

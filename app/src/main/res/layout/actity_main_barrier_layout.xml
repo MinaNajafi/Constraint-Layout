@@ -4,11 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main_barriers"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    app:layout_editor_absoluteX="0dp"
-    app:layout_editor_absoluteY="80dp"
-    tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="80dp">
+    android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/header"
@@ -18,24 +14,11 @@
         android:contentDescription="@string/placeholder"
         android:scaleType="centerCrop"
         android:src="@drawable/singapore"
-        app:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toBottomOf="@+id/favorite"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="@+id/activity_main_barriers"
-        app:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="@+id/activity_main_barriers"
-        app:layout_constraintTop_creator="1"
         app:layout_constraintTop_toTopOf="@+id/activity_main_barriers"
-        app:layout_constraintVertical_bias="0.0"
-        app:layout_editor_absoluteX="0dp"
-        app:layout_editor_absoluteY="0dp"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+/>
 
     <ImageView
         android:id="@+id/favorite"
@@ -44,25 +27,12 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/info_background"
-        android:clickable="true"
-        android:contentDescription="@string/fab_content_description"
-        android:focusable="true"
         android:padding="5dp"
         android:src="@drawable/ic_star"
-        app:layout_constraintBottom_creator="0"
         app:layout_constraintBottom_toBottomOf="@+id/activity_main_barriers"
-        app:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="@+id/activity_main_barriers"
-        app:layout_constraintTop_creator="1"
         app:layout_constraintTop_toTopOf="@+id/activity_main_barriers"
         app:layout_constraintVertical_bias="0.19"
-        app:layout_editor_absoluteX="359dp"
-        app:layout_editor_absoluteY="104dp"
-        tools:layout_constraintBottom_creator="0"
-        tools:layout_constraintRight_creator="0"
-        tools:layout_constraintTop_creator="0"
-        tools:layout_editor_absoluteX="359dp"
-        tools:layout_editor_absoluteY="104dp"
         android:layout_marginRight="16dp" />
 
     <TextView
@@ -73,16 +43,8 @@
         android:layout_marginTop="16dp"
         android:text="@string/singapore"
         android:textSize="24sp"
-        app:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="@+id/activity_main_barriers"
-        app:layout_constraintTop_creator="0"
         app:layout_constraintTop_toBottomOf="@+id/header"
-        app:layout_editor_absoluteX="16dp"
-        app:layout_editor_absoluteY="140dp"
-        tools:layout_constraintLeft_creator="0"
-        tools:layout_constraintTop_creator="0"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="140dp"
         android:layout_marginLeft="16dp" />
 
     <TextView
@@ -112,19 +74,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="@string/camera_settings"
         app:layout_constraintEnd_toEndOf="@+id/cameraType"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/cameraType"
         app:layout_constraintTop_toBottomOf="@+id/cameraType"
-        app:layout_editor_absoluteX="73dp"
-        app:layout_editor_absoluteY="225dp"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="0" />
+       />
 
     <EditText
         android:id="@+id/cameraType"
@@ -132,7 +88,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="@string/camera_value"
