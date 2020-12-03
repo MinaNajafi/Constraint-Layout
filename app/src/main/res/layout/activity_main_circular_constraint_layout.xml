@@ -55,7 +55,7 @@
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintCircleRadius="130dp"
+        app:layout_constraintCircleRadius="160dp"
         app:layout_constraintCircle="@id/iv_sun"
         app:layout_constraintCircleAngle="315"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -72,7 +72,7 @@
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintCircleRadius="130dp"
+        app:layout_constraintCircleRadius="70dp"
         app:layout_constraintCircle="@id/iv_sun"
         app:layout_constraintCircleAngle="135"
         app:layout_constraintBottom_toBottomOf="parent"

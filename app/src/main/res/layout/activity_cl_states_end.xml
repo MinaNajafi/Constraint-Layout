@@ -12,6 +12,7 @@
         android:layout_margin="32dp"
         android:text="please try again"
         android:textSize="28dp"
+        android:id="@+id/tv_error"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

@@ -17,9 +17,10 @@
         android:layout_margin="8dp"
         android:src="@color/colorPrimaryDark"
         android:text="Button"
-        app:layout_constraintDimensionRatio="H,16:9"
+        app:layout_constraintDimensionRatio="H,1:1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

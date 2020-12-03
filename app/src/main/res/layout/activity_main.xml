@@ -7,37 +7,33 @@
     tools:context=".MainActivity">
 
 
-    <ImageView
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@color/black"
-        android:layout_width="100dp"
-        android:id="@+id/blackBox"
-        android:layout_height="100dp"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:text="A"
+        android:layout_marginTop="64dp"
+        android:id="@+id/tv_A"
+        android:textSize="26sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_bias="0.8"
-        />
-
-    <ImageView
-        app:layout_constraintTop_toTopOf="@id/blackBox"
-        android:src="@android:color/holo_blue_bright"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintRight_toLeftOf="@id/blackBox"
-        app:layout_constraintBottom_toBottomOf="@id/blackBox"
-        />
+        app:layout_constraintTop_toTopOf="parent"/>
 
 
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="140dp"
-        app:layout_constraintBottom_toTopOf="@id/blackBox"
-        app:layout_constraintLeft_toRightOf="@id/blackBox"
-        android:src="@android:color/holo_green_dark"
-        app:layout_constraintRight_toRightOf="parent"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="B"
+        android:textSize="26sp"
+        app:layout_constraintStart_toEndOf="@id/tv_A"
+        app:layout_constraintTop_toTopOf="@id/tv_A"
+
         />
+
+
+
+
+
 
 
 

@@ -27,7 +27,6 @@ public class CuppcakeActivity extends AppCompatActivity {
 
         ConstraintLayout constraintLayout = findViewById(R.id.constraint_layout);
         constraintSet.clone(constraintLayout);
-
         Button bakeButton = findViewById(R.id.button_bake);
 
         bakeButton.setOnClickListener(v -> {

@@ -9,11 +9,11 @@
 
     <ImageView
         android:id="@+id/iv_sun"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:src="@drawable/ic_sun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_sun"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintDimensionRatio="W,"
+        app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintEnd_toStartOf="@id/iv_mercury"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -22,7 +22,7 @@
         android:id="@+id/iv_mercury"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_mercury"
+        app:srcCompat="@drawable/ic_mercury"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintStart_toEndOf="@id/iv_sun"
@@ -33,7 +33,7 @@
         android:id="@+id/iv_jupiter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_jupiter"
+        app:srcCompat="@drawable/ic_jupiter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintStart_toEndOf="@id/iv_mercury"
@@ -44,7 +44,7 @@
         android:id="@+id/iv_mars"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_mars"
+        app:srcCompat="@drawable/ic_mars"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintStart_toEndOf="@id/iv_jupiter"
@@ -59,6 +59,7 @@
         android:text="confirm"
         app:layout_constraintHorizontal_weight="3"
         app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintRight_toLeftOf="@id/cancel_button"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -69,7 +70,6 @@
         android:layout_margin="8dp"
         android:text="check"
         app:layout_constraintRight_toRightOf="parent"
-
         app:layout_constraintHorizontal_weight="1"
         app:layout_constraintLeft_toRightOf="@+id/cancel_button"
         app:layout_constraintTop_toTopOf="parent" />

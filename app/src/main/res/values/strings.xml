@@ -42,6 +42,6 @@
     <string name="email">EMAIL</string>
     <string name="call">CALL</string>
     <string name="navigate">NAVIGATE</string>
-    <string name="button_start">Start</string>
+    
     <string name="button_end">End</string>
 </resources>

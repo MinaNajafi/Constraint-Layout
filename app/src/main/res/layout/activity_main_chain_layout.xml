@@ -12,12 +12,13 @@
         android:id="@+id/iv_sun"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_sun"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@id/iv_mercury"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/iv_mercury" />
+        app:srcCompat="@drawable/ic_sun" />
 
 
     <ImageView

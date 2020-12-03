@@ -20,9 +20,11 @@
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="60dp"
         android:src="@color/pinkLight"
         app:layout_constraintTop_toBottomOf="@id/Pink"
+        app:layout_constraintStart_toStartOf="@id/Pink"
+        app:layout_constraintEnd_toEndOf="@id/Pink"
         />
 
 
